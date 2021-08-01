@@ -1,0 +1,27 @@
+
+a=input("enter the  number to be held as a secret between 1 to 100:")
+c=int(a)
+b = 100
+if c > b:
+   print("the value is invalid")
+elif c <=0 :
+    print("the value is invalid")
+else :
+     print("Minimum tries 7:")
+     for y in range (7):
+       value=input("enter the number:")
+       
+       d=int(value)
+    
+       if d>c :
+        
+         print("you are above the desired value")
+        
+       elif d<c :
+           print("you are below  the  desired value")
+       elif d==c :
+           print("you have entered current value")
+           break
+        
+        
+     
